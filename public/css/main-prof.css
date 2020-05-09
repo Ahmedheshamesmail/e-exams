@@ -1,0 +1,86 @@
+html{
+    background: linear-gradient(to bottom,#9817b6,#bd1de2,#cf26d9,#de68e5,#e587ea);
+}
+.button-alert{
+    text-decoration: none;
+    border: 0;
+    background:linear-gradient(to right,limegreen,green,darkgreen);
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    outline: none;
+}
+.button-alert:hover{
+    outline: none;
+}
+.alerted-drop-down{
+    margin-left: 35%;
+    width: 400px;
+    position: absolute;
+    z-index: 300;
+}
+a[href="Home"]{
+                color: white;
+            }
+            a[href="Home"] i{
+                margin-right:10px;
+            }
+            #top{
+                background:linear-gradient(to bottom right,blue, #33ffcc);
+                height: 10vh;
+                padding-top: 4vh;
+                font-size: 20px;
+                text-align: center;
+            }
+            div.app-content{
+                padding: 10vh 35%;
+            }
+            div.app-content i{
+                margin-left: 45%;
+                color:#0066ff;
+                font-size: 40px;
+            }
+            div[app-page="page"]{
+                height: 100vh;
+            }
+
+            @media only screen and (max-width: 768px){
+            div.app-content{
+                padding: 5vh 10% 37vh;
+                font-size: 17px;
+            }
+            #top{
+                font-size: 20px;
+            }
+            input[type="submit"],input[type="button"]{
+                font-size: 15px;
+            }
+            div.app-content i{
+                margin-left: 45%;
+                color:#0066ff;
+                font-size: 40px;
+            }
+            }
+            @media only screen and (max-width: 1024px){
+
+            div.app-content{
+                padding: 8vh 10% 35vh;
+                font-size: 17px;
+            }
+            #top{
+                font-size: 19px
+            }
+            input[type="submit"],input[type="button"]{
+                font-size: 14px;
+                margin: 0;
+            }
+            input[type="button"]{
+                margin-top: 10px;
+                margin-left: 50px;
+            }
+            div.app-content i{
+                margin-left: 47%;
+                color:#0066ff;
+                font-size: 40px;
+            }
+            }

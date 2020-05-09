@@ -1,0 +1,89 @@
+*{
+    overflow:hidden;
+}
+.button-alert{
+    text-decoration: none;
+    border: 0;
+    background:linear-gradient(to right,limegreen,green,darkgreen);
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    outline: none;
+}
+.button-alert:hover{
+    outline: none;
+}
+.alerted-drop-down{
+    margin-left: 35%;
+    width: 400px;
+    position: absolute;
+    z-index: 300;
+}
+div.exampletransitione {
+                width: 500px;
+                height: 60px;
+                margin: 20px 0;
+                }
+            div.exampletransitione i.transition {
+                font-size: 20px;
+                color: red;
+                margin: 10px;
+                -webkit-transition: 3s ease-in-out;
+                -moz-transition: 3s ease-in-out;
+                -o-transition: 3s ease-in-out;
+                -ms-transition: 3s ease-in-out;
+                transition: 3s ease-in-out;
+                }
+                .nnn{
+                    width: 30%;
+                    float: left;
+                }
+            body:hover div.exampletransitione i.transition{
+                font-size: 50px;
+                margin-left: 300px;
+                }
+                .vv{
+                    padding-bottom: 10vh;
+                    font-size: 30px;
+                    text-align: center;
+                    height: 12vh;
+                    background: linear-gradient(to right,blue,green ,yellow);
+                }
+                .vv p{
+                    padding-top: 3vh;
+                }
+                a[href="Home"]{
+                    width: 20px;
+                    text-align: center;
+                    padding-left: 30px;
+                    margin-left: 50px;
+                }
+                a[href="Home"] div{
+                    padding:20px;
+                    color:white;
+                    font-size: 20px;
+                }
+                a[href="Home"] div i{
+                    margin-right:10px;
+                }
+                #nn{
+                    height: 90vh;
+                    padding:3vh 35%;
+                }
+                @media only screen and (max-width: 600px){
+                    #nn{
+                        padding: 0px;
+                        margin: 0;
+                    }
+                    body:hover div.exampletransitione i.transition{
+                font-size: 50px;
+                margin-left: 150px;
+                }
+                }
+                    @media only screen and (max-width: 1000px){
+                    #nn{
+                        padding: 50px;
+                        margin: 0;
+
+                    }
+                    }

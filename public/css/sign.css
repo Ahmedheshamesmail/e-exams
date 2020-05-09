@@ -1,0 +1,98 @@
+*{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.formp{
+    background-color: #1ecbe1;
+    color: white;
+    padding: 25px;
+    width: 300px;
+    margin-top: 10vh;
+    margin-left: 10%;
+    position: absolute;
+            z-index: 10;
+            transform: translate(-50%,-50%);
+            left: 10%;
+            top :10%;
+}
+.backs{
+    width: 50%;
+    height: 100vh;
+    background-image: url('../img/IMG_20170722_023621.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+        .formcon{
+            padding: 30px;
+            height:auto;
+            width: 27%;
+            border: 1px solid green;
+            border-radius: 15px;
+            position: absolute;
+            z-index: 10;
+            transform: translate(-50%,-50%);
+            left: 50%;
+            top :48%;
+        }
+
+
+.back2{
+    width: 50%;
+}
+.button-alert{
+    text-decoration: none;
+    border: 0;
+    background:linear-gradient(to right,limegreen,green,darkgreen);
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    outline: none;
+}
+.button-alert:hover{
+    outline: none;
+}
+.alerted-drop-down{
+    margin-left: 37.5%;
+    width: 400px;
+    position: absolute;
+    z-index: 300;
+}
+
+        @media screen and (max-width: 768px){
+                *{
+                }
+                .formcon{
+                    font-size: 14px;
+            padding: 10px 30px;
+            height:auto;
+            width: 90%;
+            border: 1px solid green;
+            border-radius: 15px;
+            position: absolute;
+            z-index: 10;
+            transform: translate(-50%,-50%);
+            left: 50%;
+            top :55%;
+        }
+        .formp{
+            width: 85%;
+            top: -25px;
+            left: 40%;
+            padding: 5px;
+            font-size: 12px;
+        }
+
+
+            .alerted-drop-down{
+                width: 400px;
+                margin-left: 0;
+                position: absolute;
+                height: auto;
+                z-index: 300;
+            }
+
+            }
